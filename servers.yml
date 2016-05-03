@@ -1,0 +1,13 @@
+---
+- name: coreos-01
+  box: AntonioMeireles/coreos-stable
+  ram: 512
+  ip: 10.0.2.101
+- name: coreos-02
+  box: AntonioMeireles/coreos-stable
+  ram: 512
+  ip: 10.0.2.102
+- name: coreos-03
+  box: AntonioMeireles/coreos-stable
+  ram: 512
+  ip: 10.0.2.103
